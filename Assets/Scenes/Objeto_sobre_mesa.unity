@@ -439,7 +439,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1063751186}
-  - component: {fileID: 1063751185}
+  - component: {fileID: 1063751187}
   m_Layer: 0
   m_Name: ColocarCuboEnMesa
   m_TagString: Untagged
@@ -447,21 +447,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1063751185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1063751184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09260ea6c2bffda448f6df55258d2af6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ColocarCuboEnMesa
-  raycastManager: {fileID: 1533372985}
-  cuboPrefab: {fileID: 7547679561275671783, guid: 9f8cf07e00338914eac643335ad85680, type: 3}
-  tamanoCubo: 0.15
 --- !u!4 &1063751186
 Transform:
   m_ObjectHideFlags: 0
@@ -477,6 +462,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1063751187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063751184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd23276ed0807854db8cbb10e4a2a30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColocarTableroEnMesa
+  raycastManager: {fileID: 1533372985}
+  tableroPrefab: {fileID: 815028954683524487, guid: db2156e786546214da653d93f3b75967, type: 3}
 --- !u!1 &1351013676
 GameObject:
   m_ObjectHideFlags: 0
